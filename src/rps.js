@@ -57,7 +57,7 @@ async function rps(msgOrInter, options = {}) {
 
 	let foot = options.embedFoot
 	if (options.credit === false) foot ??= 'Rock Paper Scissors'
-	else foot ??= '©️ Simply Develop. | By- ImpassiveMoon + Rahuletto'
+	else foot ??= '_____________© Ron_____________'
 
 	//Accept decline buttons
 	const accept = new Discord.MessageButton()
